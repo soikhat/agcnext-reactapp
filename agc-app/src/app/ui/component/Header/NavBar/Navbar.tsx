@@ -47,7 +47,7 @@ const  Navbar= ({isOpen,toggle}:NavigationProps) => {
               </li>
             </ul>
           </nav>
-          <Button color="red-200">Me faire rappeler</Button>
+          <Button variant="accent" size="large">Me faire rappeler</Button>
         </Container>
       </div>
     </>
