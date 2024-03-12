@@ -16,20 +16,20 @@ const config: Config = {
           DEFAULT: "#dc2626",
           600: "#b91c1c",
         },
-        secondary:{
-          200: "#fef9c3",
-          300: "#fef08a",
-          400: "#fde047",
-          DEFAULT: "#facc15",
-          600: "#eab308",
+        secondary:{//Tailwind Amber color palet
+          200: "#fde68a",
+          300: "#fcd34d",
+          400: "#fbbf24",
+          DEFAULT: "#f59e0b",
+          600: "#d97706",
         },
-        gray:{
-          400: "",
-          500: "",
-          600: "",  
-          700: "",
-          800: "",
-          DEFAULT: "#030712",
+        gray:{//Tailwind Gray 
+          400: "#9ca3af",
+          500: "#6b7280",
+          600: "#4b5563",  
+          700: "#374151",
+          800: "#1f2937",
+          DEFAULT: "#111827",
         } ,       
       },    
     fontSize: {
@@ -104,6 +104,11 @@ const config: Config = {
         fontWeight: '400',
       }],                                                                       
     },
+    borderRadius: {
+      DEFAULT: '10px',
+      'full': '9999px',
+    
+    },    
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
