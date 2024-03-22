@@ -1,3 +1,4 @@
+'use client'
 import { IconProps } from "@/types/iconProps";
 import { clsx } from "clsx";
 interface ButtonProps {
@@ -81,7 +82,7 @@ ButtonProps) => {
     <>
       <button
         type="button"
-        className={clsx(variantStyles, sizeStyles, icoSize)}
+        className={clsx(variantStyles, sizeStyles, icoSize,"animate")}
         onClick={() => console.log("click")}
         disabled={disabled}
       >
