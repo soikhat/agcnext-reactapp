@@ -1,6 +1,6 @@
 import { drupal } from "../../lib/drupal";
 import type { DrupalNode } from "next-drupal";
-import BasicPage from "../ui/component/drupal/BasicPage";
+import BasicPage from "../ui/component/Drupal/BasicPage";
 
 export default async function AboutPage() {
   const nodeContent = await drupal.getResource<DrupalNode>(
