@@ -1,10 +1,14 @@
 import type { Config } from "tailwindcss";
+import {nextui} from "@nextui-org/react";
+/** @type {import('tailwindcss').Config} */
 
 const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/ui/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}"
+
   ],
   theme: {
       colors: {
@@ -113,10 +117,35 @@ const config: Config = {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
+      
   },
-  plugins: [],
+  darkMode: "class",
+  plugins: [
+    nextui({
+      themes: {
+        light:{
+          colors:{
+            background:"#FFFFFF",
+            foreground:"#11181C",
+            primary:{
+              200: "#FBBDA8",
+              300: "#F4907B",
+              400: "#EA6558",
+              DEFAULT: "#dc2626",
+              600: "#BD1B29",
+              700: "#9E132B",
+              800: "#7F0C2A",
+              900: "#690729"
+            }
+          }
+        }
+      }
+    }
+
+  )
+],
 };
 export default config;
