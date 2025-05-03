@@ -5,6 +5,7 @@ import { RiUser6Fill } from "react-icons/ri";
 import Button from "../../../design-system/Button/Button";
 import { Container } from "../../Container/Container";
 
+
 interface NavigationProps {
   isOpen ?: boolean ;
   toggle?: boolean;
@@ -40,10 +41,10 @@ export const  Navbar= ({isOpen,toggle}:NavigationProps) => {
           </div>
           <nav className="flex justify-between h-full items-center gap-7">
             <Typography
-              variant="caption3"
+              variant="caption4"
               component="div"
-              theme="gray"
-              className="flex items-center gap-7"
+              theme="black"
+              className="flex items-center gap-7 md:text-caption3"
             >
               <Link href="/">Accueil</Link>
               <Link href="/about">À propos</Link>
@@ -55,6 +56,7 @@ export const  Navbar= ({isOpen,toggle}:NavigationProps) => {
             <Link href="/contact">Contact</Link>
           </Button>
           <Button size="small" variant="ico" icon={{ icon: RiUser6Fill }} />
+          
         </Container>
       </div>
     </>

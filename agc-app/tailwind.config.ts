@@ -14,26 +14,27 @@ const config: Config = {
       colors: {
         'regal-blue': '#243c5a',
         primary:{
-          200: "#fecaca",
-          300: "#f87171",
-          400: "#ef4444",
+          100:"#FDE1D3",
+          200: "#FBBDA8",
+          300: "#F4907B",
+          400: "#EA6558",
           DEFAULT: "#dc2626",
-          600: "#b91c1c",
+          600: "#BD1B29",
+          700:"#9E132B",
+          800:"#7F0C2A",
+          900:"#690729",
         },
-        secondary:{//Tailwind Amber color palet
-          200: "#fde68a",
-          300: "#fcd34d",
-          400: "#fbbf24",
-          DEFAULT: "#f59e0b",
-          600: "#d97706",
-        },
-        gray:{//Tailwind Gray 
-          400: "#9ca3af",
-          500: "#6b7280",
-          600: "#4b5563",  
-          700: "#374151",
-          800: "#1f2937",
-          DEFAULT: "#111827",
+
+        gray:{
+          100:"#F3F3F3",
+          200:"#E8E8E8",
+          300:"#BBBBBB",
+          400: "#777777",
+          DEFAULT: "#1D1D1D",
+          600: "#181515",  
+          700: "#140E0F",
+          800: "#10090B",
+          900: "#10090B",
         } ,       
       },    
     fontSize: {
@@ -103,10 +104,15 @@ const config: Config = {
         fontWeight: '400',
       }], 
       'caption3': ['16px', {
+        lineHeight: '18px',
+        letterSpacing: '-0.5px',
+        fontWeight: '400',
+      }], 
+      'caption4': ['13px', {
         lineHeight: '15px',
         letterSpacing: '-0.2px',
         fontWeight: '400',
-      }],                                                                       
+      }],                                                                            
     },
     borderRadius: {
       DEFAULT: '10px',
@@ -119,6 +125,7 @@ const config: Config = {
         "gradient-conic":
         "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+
     },
       
   },
@@ -131,6 +138,7 @@ const config: Config = {
             background:"#FFFFFF",
             foreground:"#11181C",
             primary:{
+              100:"#FEF9F2",
               200: "#FBBDA8",
               300: "#F4907B",
               400: "#EA6558",
@@ -139,7 +147,14 @@ const config: Config = {
               700: "#9E132B",
               800: "#7F0C2A",
               900: "#690729"
-            }
+            }, 
+            secondary:{//Tailwind Amber color palet
+              200: "#fde68a",
+              300: "#fcd34d",
+              400: "#fbbf24",
+              DEFAULT: "#f59e0b",
+              600: "#d97706",
+            },
           }
         }
       }

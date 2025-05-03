@@ -5,6 +5,7 @@ interface TypoProps {
     | "headingXL"
     | "headingL"
     | "headingM"
+    |"headingSection"
     | "headingS"
     | "lead"
     | "body-lg"
@@ -44,6 +45,10 @@ export const Typography = ({
     case "headingM":
       variantStyles = "text-5xl";
       break;
+    case "headingSection":
+      variantStyles =
+        "text-4xl after:block after:bg-secondary after:border-b-secondary after:h-1 after:w-20 after:mt-2";
+      break;
     case "headingS":
       variantStyles = "text-4xl";
       break;
@@ -71,23 +76,22 @@ export const Typography = ({
     case "caption4":
       variantStyles = "text-caption4";
       break;
-
   }
   switch (theme) {
     case "black":
       colorStyles = "text-gray";
       break;
     case "gray":
-      colorStyles = "text-gray-500";
+      colorStyles = "text-gray-400";
       break;
     case "white":
-      colorStyles = "text-white";
+      colorStyles = "text-neutral";
       break;
     case "primary":
       colorStyles = "text-primary";
       break;
     case "secondary":
-      colorStyles = "text-secodary";
+      colorStyles = "text-secondary";
       break;
   }
  

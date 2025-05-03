@@ -2,21 +2,18 @@ import { Typography } from "@/app/ui/design-system/Typography/Typography";
 import type { DrupalNode } from "next-drupal";
 
 interface BasicPageProps {
-  nodeContent: DrupalNode;
+  node: DrupalNode;
 }
 
-export default async function BasicPage({ nodeContent }: BasicPageProps) {
+export default async function BasicPage({ node, ...props }: BasicPageProps) {
   return (
-    <article>
-      <Typography variant="display" className="text-red-200">
-        {nodeContent.title}
+    <article {...props}>
+      <Typography variant="display" className="text-primary">
+        {node.title}
       </Typography>
-      {nodeContent.body?.processed && (
-        <div
-          dangerouslySetInnerHTML={{ __html: nodeContent.body?.processed }}
-          className="mt-6 font-serif text-xl leading-loose prose"
-        />
-      )}
+      <Typography variant="caption1" className="text-primary">
+        {node.body}
+      </Typography>
     </article>
   );
 }
