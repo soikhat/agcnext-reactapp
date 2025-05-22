@@ -1,0 +1,74 @@
+.
+├── arborescence.txt
+├── next-env.d.ts
+├── next.config.mjs
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── public
+│   ├── agclogo.jpeg
+│   ├── agclogo.png
+│   ├── assets
+│   │   └── images
+│   │       ├── 3226226_43171.jpg
+│   │       ├── agclocaux.jpg
+│   │       ├── agclocaux.webp
+│   │       ├── agclocaux1.jpg
+│   │       ├── assurancetransparent-.png
+│   │       ├── assurancetransparent.png
+│   │       ├── homedriver.jpeg
+│   │       ├── homedriver.png
+│   │       ├── homedriver1.jpeg
+│   │       ├── homedriver2.png
+│   │       ├── illustration.png
+│   │       ├── illustration1.png
+│   │       ├── routeBackground.jpeg
+│   │       ├── routeBackground.webp
+│   │       └── routeBackground1.jpeg
+│   └── svg
+│       ├── archipelcomores_svg.svg
+│       ├── boatico.svg
+│       ├── caricon.svg
+│       ├── comores-site-gray-kr4mx0.jpg
+│       ├── dots-contact-fond.svg
+│       ├── dots-rectangle.svg
+│       ├── homeico.svg
+│       ├── horizontal-line.svg
+│       ├── planeico.svg
+│       └── vague.svg
+├── README.md
+├── src
+│   ├── api
+│   ├── app
+│   │   ├── about
+│   │   │   └── page.tsx
+│   │   ├── blog
+│   │   │   └── page.tsx
+│   │   ├── favicon.ico
+│   │   ├── layout.tsx
+│   │   ├── page.tsx
+│   │   ├── produits
+│   │   │   └── page.tsx
+│   │   ├── providers.tsx
+│   │   └── ui
+│   │       ├── component
+│   │       ├── design-system
+│   │       └── modules
+│   ├── config
+│   ├── context
+│   ├── hooks
+│   ├── lib
+│   │   ├── drupal.ts
+│   │   └── FormValidation.ts
+│   ├── styles
+│   │   ├── globals.css
+│   │   └── Navbar.css
+│   ├── types
+│   │   ├── applinks-type.tsx
+│   │   └── iconProps.tsx
+│   └── utils
+│       └── constants.tsx
+├── tailwind.config.ts
+└── tsconfig.json
+
+22 directories, 50 files

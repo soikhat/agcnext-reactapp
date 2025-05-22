@@ -90,20 +90,24 @@ const SideBar = ({ isOpen, toggle }: SideBarProps) => {
       </div>
 
       <nav className="flex flex-col p-6 gap-4">
-        {links.map(({ label, href }) => (
-          <Link
-            key={href}
-            href={href}
-            onClick={toggle}
-            className={`px-4 py-2 rounded text-lg ${
-              pathname === href
-                ? "text-primary-600 font-semibold"
-                : "text-gray-800"
-            } focus:outline focus:outline-2 focus:outline-primary-400`}
-          >
-            {label}
-          </Link>
-        ))}
+        {links.map(({ label, href }) =>
+          href ? (
+            <Link
+              key={href}
+              href={href}
+              onClick={toggle}
+              className={`px-4 py-2 rounded text-lg ${
+                pathname === href
+                  ? "text-primary-600 font-semibold"
+                  : "text-gray-800"
+              } focus:outline focus:outline-2 focus:outline-primary-400`}
+            >
+              {label}
+            </Link>
+          ) : (
+            <span key={label}>{label}</span>
+          )
+        )}
       </nav>
     </aside>
   );
