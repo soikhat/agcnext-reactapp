@@ -6,6 +6,8 @@ import { Navbar } from "@/app/ui/component/Navigation/NavBar/Navbar";
 import Navigation from "./ui/component/Navigation/Navigation";
 import { Footer } from "./ui/component/Navigation/Footer/footer";
 import { Main } from "@/app/ui/design-system/Layout/Main/Main";
+import { ToastProvider } from "./ui/design-system/Toast/ToastProvider";
+import { LoadingOverlay } from "./ui/design-system/Loading/LoadingOverlay";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,7 +26,11 @@ export default function RootLayout({
       <body className={inter.className}>
         <Providers>
           <Navigation />
-          <Main>{children}</Main>
+          <Main>
+            {children}
+            <LoadingOverlay />
+            <ToastProvider />
+          </Main>
           <Footer />
         </Providers>
       </body>
