@@ -28,8 +28,6 @@ export default function RootLayout({
           <Navigation />
           <Main>
             {children}
-            <LoadingOverlay />
-            <ToastProvider />
           </Main>
           <Footer />
         </Providers>

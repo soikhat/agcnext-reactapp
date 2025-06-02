@@ -25,9 +25,10 @@ export default function Home() {
               Protégez ce qui compte le plus.
             </Typography>
             <Typography variant="lead" theme="gray" className="flex flex-col">
-              Twenty-four years in the market — helping people save money and
-              time.
+              ACG Assurances vous protège dans tous vos déplacements : auto,
+              voyage, maritime, et chantiers.
             </Typography>
+            <Typography variant="headingL">Votre sécurité, notre priorité</Typography>
             <div>
               <Button variant="accent" size="small">
                 Voir nos offres
@@ -144,8 +145,9 @@ export default function Home() {
         <Container>
           <Typography variant="caption3">Témoignage ... </Typography>
           <Typography variant="headingS">
-            Par ce qu'aux <span className="text-primary">AGC le client est roi</span>... Cest vous qui en
-            parlez le mieux.
+            Par ce qu'aux{" "}
+            <span className="text-primary">AGC le client est roi</span>... Cest
+            vous qui en parlez le mieux.
           </Typography>
         </Container>
       </HeroSection>
