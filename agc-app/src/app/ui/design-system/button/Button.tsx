@@ -8,7 +8,7 @@ import {
   icoButtonSizes,
 } from "@/app/ui/design-system/Theme/ButtonStyles";
 
-interface ButtonProps {
+interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   size?: "small" | "medium" | "large" | "xl";
   variant?: "accent" | "secondary" | "disabled" | "ico" | "outline" | "neutral";
   icon?: IconProps;

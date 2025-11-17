@@ -1,0 +1,23 @@
+import React from 'react';
+
+const Temoignage = ({ imageUrl, citation, auteur }) => {
+  return (
+    <div className="temoignage-container">
+      <div className="temoignage-image-container">
+        <img
+          src={imageUrl}
+          alt={`Photo de ${auteur}`}
+          className="temoignage-image"
+        />
+      </div>
+      <div className="temoignage-text-container">
+        <blockquote className="temoignage-citation">
+          "{citation}"
+        </blockquote>
+        <p className="temoignage-auteur">— {auteur}</p>
+      </div>
+    </div>
+  );
+};
+
+export default Temoignage;

@@ -1,0 +1,46 @@
+.temoignage-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.temoignage-image-container {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+  border: 3px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.temoignage-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.temoignage-text-container {
+  padding: 0 1rem;
+}
+
+.temoignage-citation {
+  font-size: 1.3rem;
+  font-style: italic;
+  color: #333;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.temoignage-auteur {
+  font-weight: 600;
+  color: #555;
+  font-size: 1.1rem;
+}

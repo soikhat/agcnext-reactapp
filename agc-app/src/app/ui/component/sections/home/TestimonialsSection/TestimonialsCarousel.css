@@ -1,0 +1,35 @@
+.testimonial-carousel-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.testimonial-slide {
+  outline: none;
+  padding: 0 1rem;
+}
+
+/* Personnalisation des flèches */
+.slick-prev:before,
+.slick-next:before {
+  color: #000;
+  font-size: 2rem;
+}
+
+.slick-prev {
+  left: -30px;
+}
+
+.slick-next {
+  right: -30px;
+}
+
+/* Personnalisation des dots */
+.slick-dots li button:before {
+  color: #000;
+  font-size: 12px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #0070f3;
+}
