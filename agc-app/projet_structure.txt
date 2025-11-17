@@ -1,0 +1,141 @@
+.
+├── arborescence.txt
+├── next-env.d.ts
+├── next.config.mjs
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── projet_structure.txt
+├── README.md
+├── src
+│   ├── api
+│   ├── app
+│   │   ├── favicon.ico
+│   │   ├── layout.tsx
+│   │   ├── page.tsx
+│   │   ├── pages
+│   │   │   ├── about
+│   │   │   │   └── page.tsx
+│   │   │   ├── agences
+│   │   │   ├── blog
+│   │   │   │   └── page.tsx
+│   │   │   ├── contact
+│   │   │   ├── devis
+│   │   │   └── services
+│   │   │       └── page.tsx
+│   │   ├── providers.tsx
+│   │   └── ui
+│   │       ├── component
+│   │       │   ├── cards
+│   │       │   │   ├── AgencyCard
+│   │       │   │   ├── AssuranceHomeCard
+│   │       │   │   │   └── AssuranceHomeCard.tsx
+│   │       │   │   ├── NewsCard
+│   │       │   │   └── TestimonialsCard
+│   │       │   │       ├── testimonials.css
+│   │       │   │       └── TestimonialsCard.tsx
+│   │       │   ├── Carousel
+│   │       │   │   ├── Description.tsx
+│   │       │   │   └── Slider.tsx
+│   │       │   ├── Container
+│   │       │   │   └── Container.tsx
+│   │       │   ├── drupal
+│   │       │   │   └── BasicPage.tsx
+│   │       │   ├── forms
+│   │       │   ├── Navigation
+│   │       │   │   ├── active-link.tsx
+│   │       │   │   ├── Footer
+│   │       │   │   │   └── footer.tsx
+│   │       │   │   ├── NavBar
+│   │       │   │   │   └── Navbar.tsx
+│   │       │   │   ├── Navigation.tsx
+│   │       │   │   └── SideBar
+│   │       │   │       └── SideBar.tsx
+│   │       │   └── sections
+│   │       │       ├── AboutSection
+│   │       │       ├── ActualitesSection
+│   │       │       │   └── ActualitesSection.tsx
+│   │       │       ├── AgencesSection
+│   │       │       │   └── AgencesSection.tsx
+│   │       │       ├── ContactSection
+│   │       │       │   ├── ContactInfo.tsx
+│   │       │       │   ├── ContactSection.tsx
+│   │       │       │   ├── CTASection.tsx
+│   │       │       │   ├── NewsletterForm.tsx
+│   │       │       │   └── UrgencyBanner.tsx
+│   │       │       ├── HeroSection
+│   │       │       ├── ServicesSection
+│   │       │       └── TestimonialsSection
+│   │       │           ├── TestimonialsCarousel.css
+│   │       │           └── TestimonialsCarousel.tsx
+│   │       ├── design-system
+│   │       │   ├── Button
+│   │       │   │   └── Button.tsx
+│   │       │   ├── Card
+│   │       │   │   ├── Card.tsx
+│   │       │   │   ├── CardBody.tsx
+│   │       │   │   ├── CardFooter.tsx
+│   │       │   │   ├── CardHeader.tsx
+│   │       │   │   └── CardImage.tsx
+│   │       │   ├── Heading
+│   │       │   ├── Image
+│   │       │   │   ├── DesignSystemImage.tsx
+│   │       │   │   └── imageTypes.ts
+│   │       │   ├── Layout
+│   │       │   │   ├── Container
+│   │       │   │   │   └── Container.tsx
+│   │       │   │   ├── Main
+│   │       │   │   │   └── Main.tsx
+│   │       │   │   ├── ResponsiveGird
+│   │       │   │   │   └── ResponsiveGird.tsx
+│   │       │   │   └── Section
+│   │       │   │       ├── CenteredSection.tsx
+│   │       │   │       ├── FullSection.tsx
+│   │       │   │       ├── HeroSection
+│   │       │   │       │   └── HeroSection.tsx
+│   │       │   │       └── Section.tsx
+│   │       │   ├── Loading
+│   │       │   │   ├── LoadingOverlay.tsx
+│   │       │   │   ├── Skeleton.tsx
+│   │       │   │   └── Spinner.tsx
+│   │       │   ├── Text
+│   │       │   ├── Theme
+│   │       │   │   ├── ButtonStyles.ts
+│   │       │   │   └── CardStyles.ts
+│   │       │   ├── Toast
+│   │       │   │   └── ToastProvider.tsx
+│   │       │   └── Typography
+│   │       │       └── Typography.tsx
+│   │       ├── icons
+│   │       └── modules
+│   ├── config
+│   ├── context
+│   ├── hooks
+│   │   └── useNewsletterForm.ts
+│   ├── lib
+│   │   ├── actualites
+│   │   │   └── mocks.ts
+│   │   ├── drupal
+│   │   │   ├── drupal.ts
+│   │   │   └── testimonials-api.ts
+│   │   ├── FormValidation.ts
+│   │   └── testimonials
+│   │       └── mocks.ts
+│   ├── styles
+│   │   ├── globals.css
+│   │   └── Navbar.css
+│   ├── types
+│   │   ├── actualites.ts
+│   │   ├── applinks-type.ts
+│   │   ├── contact.ts
+│   │   ├── iconProps.ts
+│   │   └── testimonials-types.ts
+│   └── utils
+│       ├── app-links.ts
+│       ├── constants.ts
+│       └── toast.ts
+├── structure.txt
+├── tailwind.config.ts
+└── tsconfig.json
+
+62 directories, 77 files
