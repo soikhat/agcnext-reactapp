@@ -49,7 +49,7 @@ export const navigationConfig = {
         }))
       ),
      },
-    { label: "Conseils et actualités", href: "/pages/blog" },
+    { label: "Conseils et actualités", href: "/pages/news" },
   ] as NavLink[],
 
   actionButtons: [
