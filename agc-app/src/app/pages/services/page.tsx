@@ -1,5 +1,5 @@
 "use client";
-
+import { Metadata } from "next";
 import { useState } from "react";
 import { ServicesHeroSection } from "@/app/ui/component/sections/services/ServicesHeroSection";
 import { CategoriesGrid } from "@/app/ui/component/sections/services/CategoriesFilterGird";
