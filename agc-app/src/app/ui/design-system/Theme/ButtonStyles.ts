@@ -14,6 +14,7 @@ export const icoButtonVariants = {
   accent: "bg-primary hover:bg-primary-400 text-white rounded-full",
   secondary: "bg-primary-200 hover:bg-primary-300/50 text-primary rounded-full",
   gray: "bg-gray-700 hover:bg-gray-600 text-white rounded-full",
+  red: "bg-transparent text-primary hover:bg-primary-50 active:bg-primary-100",
 };
 
 export const buttonSizes = {
