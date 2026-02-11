@@ -12,7 +12,7 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   size?: "small" | "medium" | "large" | "xl";
   variant?: "accent" | "secondary" | "disabled" | "ico" | "outline" | "neutral";
   icon?: IconProps;
-  iconTheme?: "accent" | "secondary" | "gray";
+  iconTheme?: "accent" | "secondary" | "gray"| "red";
   iconPosition?: "left" | "right" | "top" | "bottom";
   disabled?: boolean;
   isLoading?: boolean;
@@ -35,7 +35,7 @@ export const Button = ({
 
   const variantStyles = isIconButton
     ? icoButtonVariants[iconTheme ?? "accent"]
-    : buttonVariants[variant] ?? "";
+    : buttonVariants[variant] ?? "accent";
 
   const sizeStyles = isIconButton
     ? icoButtonSizes[size].className
